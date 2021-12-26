@@ -8,42 +8,42 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/media.css">
     <link rel="stylesheet" href="../CSS/contact.css">
-    <! -- Hamburger menu "import" -->
+    <!-- Hamburger menu "import" -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <! -- Google fonts "import" -->
+    <!-- Google fonts "import" -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-   <! -- NAVIGATION BAR -->
+   <!-- NAVIGATION BAR -->
    <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
-         <! -- Hamburger menu layout -->
+         <!-- Hamburger menu layout -->
          <i class="fa fa-bars"></i>
       </label>
-      <! -- Logo/title -->
+      <!-- Logo/title -->
       <label class="title">&#127864;</label>
-      <! -- Links from navbar menu -->
+      <!-- Links from navbar menu -->
       <ul>
          <li><a href="../index.html">Home</a></li>
          <li><a class="active" href="../pages/contact.html">Contact</a></li>
       </ul>
    </nav>
 
-   <! -- HEADER AND CONTENT -->
+   <!-- HEADER AND CONTENT -->
    <section class="container">
       <h1>Place your <span class="deco">request</span>.</h1>
 
-      <! -- CONTACT FORM -->
+      <!-- CONTACT FORM -->
       <form id="contactForm">
-         <! -- Message display after form's sent -->
+         <!-- Message display after form's sent -->
          <div id="message"></div>
          <p class="explaintext"><span class="requiremark">*</span> Required fields</p>
 
-         <! -- Name input -->
+         <!-- Name input -->
          <div>
             <label class="label">
                Name <span class="requiremark">*</span>
@@ -52,7 +52,7 @@
             <div class="form-error" id="fullNameError">&#9888; Please enter your name</div>
          </div>
 
-         <! -- Subject input -->
+         <!-- Subject input -->
          <div>
             <label class="label">
                Subject <span class="requiremark">*</span>
@@ -61,7 +61,7 @@
             <div class="form-error" id="subjectNameError">&#9888; Your subject request must be at least 10 characters long</div>
          </div>
 
-         <! -- Email input -->
+         <!-- Email input -->
          <div>
             <label class="label">
                Email <span class="requiremark">*</span>
@@ -70,7 +70,7 @@
             <div class="form-error" id="emailError">&#9888; Invalid email adress</div>
          </div>
 
-         <! -- Adress input -->
+         <!-- Adress input -->
          <div>
             <label class="label">
                Adress <span class="requiremark">*</span>
@@ -79,18 +79,18 @@
             <div class="form-error" id="adressError">&#9888; The adress must be at least 25 characters</div>
          </div>
 
-         <! -- Form button (submission) -->
+         <!-- Form button (submission) -->
          <button id="submitForm">SUBMIT</button>
 
       </form>
    </section>
 
-   <! -- FOOTER -->
+   <!-- FOOTER -->
    <footer>
       API powered by <a class="linksource" href="https://www.thecocktaildb.com/api.php">TheCocktailDB</a>
    </footer>
 
-   <! -- JS -->
+   <!-- JS -->
    <script src="../JS/components/contactForm.js"></script>
    <script></script>
 
