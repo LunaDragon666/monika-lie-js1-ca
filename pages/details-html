@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/media.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <! -- Hamburger menu "import" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <! -- Google fonts "import" -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   <! -- NAVIGATION BAR -->
+   <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+         <! -- Hamburger menu layout -->
+         <i class="fa fa-bars"></i>
+      </label>
+      <! -- Logo/title -->
+      <label class="title">&#127864;</label>
+      <! -- Links from navbar menu -->
+      <ul>
+         <li><a href="../index.html">Home</a></li>
+         <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+   </nav>
+
+   <! -- HEADER AND CONTENT -->
+   <section class="container">
+      <div class="breadcrumb-nav">
+         <a class="back-arrow" href="../index.html">⬅</a></div>
+         <div class="cocktail-details"> 
+      </div>
+      <div class="loading">Data brewing under progress ... </div>
+     
+   </section>
+
+   <! -- FOOTER -->
+   <footer>
+      API powered by <a class="linksource" href="https://www.thecocktaildb.com/api.php">TheCocktailDB</a>
+   </footer>
+
+   <! -- JS -->
+   <script src="../JS/details.js"></script>
+   <script src="../JS/components/errorMessage.js"></script>
+
+</body>
+
+
+</html>
