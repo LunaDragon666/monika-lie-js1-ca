@@ -1,0 +1,306 @@
+@import url("https://use.typekit.net/shp6ffs.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "p22-underground", sans-serif;
+  background: #ededed;
+}
+
+h1 {
+  font-size: 2.1em;
+  padding: 80px 0 50px 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+}
+
+.title,
+nav ul li a,
+h1,
+h2,
+p {
+  letter-spacing: 2px;
+}
+
+/* NAVIGATION BAR */
+nav {
+  background: #e5f04c;
+  height: 80px;
+  width: 100%;
+  position: sticky;
+  box-shadow: #a5b938 0px 1px 2px;
+}
+
+/* Logo/title placement */
+label.title {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 60px;
+  font-weight: bold;
+}
+
+/* Navigation bar placement */
+nav ul {
+  float: right;
+  margin-right: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 17px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+/* Menu link(s) display */
+a.active,
+a:hover {
+  color: white;
+  background: #a5b917;
+  transition: 0.5s;
+}
+
+/* Hamburger menu styling */
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Hide checkbox */
+#check {
+  display: none;
+}
+
+/* Loading indicator */
+.loading {
+  border-radius: 5px;
+  color: #715b09;
+  font-size: 20px;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+/* Error message display */
+.error {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 45%;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0 auto;
+  color: #da3236;
+  background: #fed0d1;
+}
+
+/* SECTION-CONTAINER FIELD */
+.container {
+  background: #f7f7f7;
+  padding: 50px;
+  min-height: 90vh;
+}
+
+/* Images */
+img {
+  width: 100%;
+}
+
+/* API-data showcase */
+.results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result {
+  margin: 1.45rem;
+  background: #f2eb85;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  vertical-align: top;
+}
+
+.space {
+  padding: 15px 30px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+/* Text decor */
+.h2_heading {
+  color: #324001;
+  font-size: 20px;
+  background: #f2e852;
+  padding: 15px;
+  margin: -7px 0 13px 0;
+  text-align: center;
+  box-shadow: #dcd24a 0px 2px 5px 0px, #c1cb2c 0px 1px 1px 0px;
+}
+
+.color {
+  color: #d92555;
+  font-weight: bold;
+}
+
+span.deco {
+  color: #d92555;
+  font-weight: 600;
+}
+
+/* Link-button */
+.button {
+  margin: 0 0 70px 0;
+  text-align: center;
+}
+
+.cta {
+  color: white;
+  background: #f24b6a;
+  padding: 15px 20px;
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.cta:hover {
+  background: #d92555;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding: 20px 65px;
+}
+
+/* API link source */
+.linksource {
+  font-weight: bold;
+  color: #d92555;
+}
+
+.linksource:hover {
+  background: none;
+  color: #d92555;
+  letter-spacing: 3px;
+}
+
+/* "My" signature */
+.signature {
+  color: black;
+  font-weight: bold;
+}
+
+.signature:hover {
+  background: none;
+  color: #d92555;
+}
+
+/* OTHER CSS COMPONENTS*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e6f98b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #97bf04;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6e8c03;
+}
+
+/* DETAILS PAGE */
+.breadcrumb-nav {
+  padding: 80px 20px;
+  font-size: 3em;
+  margin: -75px 0 75px 0;
+  text-align: center;
+}
+
+.breadcrumb-nav a {
+  color: #d92555;
+}
+
+.breadcrumb-nav a:hover {
+  background: none;
+  color: black;
+}
+
+.img_detail {
+  width: 20%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.h1_detail {
+  margin: -200px 0 0px 0;
+}
+
+.p_id {
+  margin: -40px 0 50px 0;
+  text-align: center;
+}
+
+.text-box {
+  width: 50%;
+  background: #f2eb85;
+  margin: 65px auto 45px auto;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+hr {
+  border: 2.5px solid #f24b6a;
+  background: #f24b6a;
+  border-radius: 14px;
+  width: 6%;
+  margin-bottom: 25px;
+}
+
+.link {
+  color: black;
+  font-weight: bold;
+}
+
+.link:hover {
+  background: none;
+  color: #d92555;
+}
+
+.info {
+  margin: 0 0 25px 0;
+}
